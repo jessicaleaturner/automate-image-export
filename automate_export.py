@@ -89,7 +89,7 @@ def main(*args):
         else:
             print("Successfully created the directory %s " % filepath)
 
-    save_and_move(args.FILENAME, args.FILESIZES)
+    save_and_move(args.FILENAME, args.FILESIZES, filepath)
 
     print("Program finished!")
 
